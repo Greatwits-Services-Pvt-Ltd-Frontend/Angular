@@ -1,0 +1,30 @@
+<h2>list-restro works!</h2>
+
+<!-- <table border="1">
+<ul>
+    <li *ngFor="let item of collection">
+        {{item.name}}
+    </li>
+</ul>
+</table> -->
+
+
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">E-mail</th>
+        <th scope="col">Address</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of collection">
+        <th scope="row">{{item.id}}</th>
+        <td>{{item.name}}</td>
+        <td>{{item.email}}</td>
+        <td>{{item.address}}</td>
+      </tr>
+      
+    </tbody>
+  </table>

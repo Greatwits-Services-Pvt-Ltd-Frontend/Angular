@@ -1,0 +1,28 @@
+{
+  "restraunts": [
+    {
+      "name": " saffron Restraunts",
+      "address": "rohini,delhi ",
+      "email": "Saffron@gmail.com",
+      "id": 1
+    },
+    {
+      "name": " Halidram Restraunts",
+      "address": "noida sector-62",
+      "email": "Haldiram@gmail.com",
+      "id": 2
+    },
+    {
+      "name": " Halidram Restraunts",
+      "address": "noida sector-62",
+      "email": "Haldiram@gmail.com",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "new sweets",
+      "address": "delhi",
+      "email": "delhi@gmail.com"
+    }
+  ]
+}
