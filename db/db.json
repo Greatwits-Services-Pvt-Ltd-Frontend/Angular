@@ -23,6 +23,12 @@
       "name": "new sweets",
       "address": "delhi",
       "email": "delhi@gmail.com"
+    },
+    {
+      "name": "subway",
+      "email": "subway@gmail.com",
+      "address": "Noida, sector-32",
+      "id": 5
     }
   ]
 }

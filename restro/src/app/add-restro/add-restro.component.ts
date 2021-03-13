@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {FormGroup,FormControl  } from "@angular/forms";
+import { RestroService } from "../restro.service";
 
 @Component({
   selector: 'app-add-restro',
@@ -8,7 +9,7 @@ import {FormGroup,FormControl  } from "@angular/forms";
 })
 export class AddRestroComponent implements OnInit {
 
-  constructor() { }
+  constructor(private restro:RestroService) { }
   addrestro=new FormGroup({
 name:new FormControl(''),
 email:new FormControl(''),
@@ -24,7 +25,13 @@ address:new FormControl(''),
 
   collectrestro()
   {
-    console.log(this.addrestro.value)
+    // console.log(this.addrestro.value)
+    this.restro.saverestro(this.addrestro.value).subscribe((result)=>{
+      console.log(result)
+    })
+
+
+
   }
 
 }

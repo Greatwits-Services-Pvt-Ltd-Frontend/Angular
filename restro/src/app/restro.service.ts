@@ -15,5 +15,16 @@ url="http://localhost:3000/restraunts"
     // return "data list here"
     return this.http.get(this.url)
   }
+
+  saverestro(data:any){
+    // console.log(data)
+    return this.http.post(this.url,data)
+
+  }
+
+
+
+
+
 }
 
