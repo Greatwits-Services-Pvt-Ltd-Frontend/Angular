@@ -14,11 +14,12 @@ export class AddRestroComponent implements OnInit {
 name:new FormControl(''),
 email:new FormControl(''),
 address:new FormControl(''),
+}
+)
 
 
-  }
+alert:boolean=false
 
-  )
 
   ngOnInit(): void {
   }
@@ -27,11 +28,18 @@ address:new FormControl(''),
   {
     // console.log(this.addrestro.value)
     this.restro.saverestro(this.addrestro.value).subscribe((result)=>{
+      this.alert=true
       console.log(result)
     })
 
-
+this.addrestro.reset({})
 
   }
+
+    closealert(){
+      this.alert=false;
+    }
+
+
 
 }

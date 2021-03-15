@@ -22,6 +22,14 @@ url="http://localhost:3000/restraunts"
 
   }
 
+deleterestro(id:any){
+  return this.http.delete(`${this.url}/${id}`)
+}
+
+getcurrentrestro(id:any){
+  return this.http.get(`${this.url}/${id}`)
+}
+
 
 
 

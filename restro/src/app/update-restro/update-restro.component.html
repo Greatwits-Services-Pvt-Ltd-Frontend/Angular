@@ -1,2 +1,32 @@
 <!-- <p></p> -->
 <h2>update-restro works!</h2>
+
+
+
+<form [formGroup]="editrestro" >
+    <div class="form-group">
+        <label for="exampleInputEmail1">Name</label>
+        <input  type="email" class="form-control" formControlName="name" aria-describedby="emailHelp" placeholder="Enter name" required>
+        <small id="emailHelp" class="form-text text-muted">We'll never share your name with anyone else.</small>
+      </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" formControlName="email"  aria-describedby="emailHelp" placeholder="Enter email" required>
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+        <label for="exampleInputEmail1"> Address</label>
+        <input type="email" class="form-control"  formControlName="address" aria-describedby="emailHelp" placeholder="Enter address" required>
+        <small id="emailHelp" class="form-text text-muted">We'll never share your address with anyone else.</small>
+      </div>
+   
+    <button  type="submit" [disabled]="editrestro.invalid" class="btn btn-primary">Update</button>
+  </form>
+
+
+
+
+
+
+
+  

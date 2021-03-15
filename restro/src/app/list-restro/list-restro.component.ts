@@ -9,7 +9,7 @@ import {  RestroService} from "../restro.service";
 export class ListRestroComponent implements OnInit {
 
   constructor(private restro:RestroService) { }
-collection:any={}
+collection:any=[]
   ngOnInit(): void {
     this.restro.getlist().subscribe((result)=>{
       console.log(result);
@@ -18,4 +18,17 @@ collection:any={}
     // console.log(this.restro.getlist())
   }
 
+  deleterestro(item:any){
+// console.log(item)
+console.log(this.collection)
+this.collection.splice(item-1,1)
+this.restro.deleterestro(item).subscribe((result)=>{
+  console.log(result)
+})
+
 }
+
+
+}
+
+

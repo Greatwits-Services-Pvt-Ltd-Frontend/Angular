@@ -25,7 +25,7 @@ const routes: Routes = [
   },
   {
     component:UpdateRestroComponent,
-    path:"update-restro"
+    path:"update-restro/:id"
   },
 ];
 

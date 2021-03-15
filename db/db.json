@@ -1,34 +1,16 @@
 {
   "restraunts": [
     {
-      "name": " saffron Restraunts",
-      "address": "rohini,delhi ",
-      "email": "Saffron@gmail.com",
+      "name": "ds",
+      "email": "sa",
+      "address": "A",
       "id": 1
     },
     {
-      "name": " Halidram Restraunts",
-      "address": "noida sector-62",
-      "email": "Haldiram@gmail.com",
+      "name": "rdfhyreaa",
+      "email": "FAg",
+      "address": "dsfa",
       "id": 2
-    },
-    {
-      "name": " Halidram Restraunts",
-      "address": "noida sector-62",
-      "email": "Haldiram@gmail.com",
-      "id": 3
-    },
-    {
-      "id": 4,
-      "name": "new sweets",
-      "address": "delhi",
-      "email": "delhi@gmail.com"
-    },
-    {
-      "name": "subway",
-      "email": "subway@gmail.com",
-      "address": "Noida, sector-32",
-      "id": 5
     }
   ]
 }
