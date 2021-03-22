@@ -1,1 +1,12 @@
-<input type="text" (keyup)="getVal($event.target.value)">
+<!-- <app-users [anky]="data"></app-users>  -->
+<!-- <app-users (parentComponent)="parentComponent($event)"></app-users>  -->
+<h2>{{name|uppercase}}</h2>
+<h2>{{name|lowercase}}</h2>
+<h2>{{name|titlecase}}</h2>
+
+
+<h2>{{today|date}}</h2>
+<h2>{{today|date:'fullDate'}}</h2>
+
+<h2>{{str|slice:2}}</h2>
+<h2>{{str|slice:2:2}}</h2>

@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,9 +6,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular';
-  currentval=""
-  getVal(val){
-    console.log(val)
-    this.currentval=val
-  }
+// parentComponent(data){
+//   console.log(data)
+// }  
+name="peter parker"
+today=Date.now();
+str="hello angular"
 }
