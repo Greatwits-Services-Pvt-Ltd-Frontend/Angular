@@ -7,6 +7,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
 import {MatSliderModule} from '@angular/material/slider';
 import { UsersComponent } from './users/users.component';
+import { UsersModule } from './users/users.module';
+import { UserModule } from './user/user.module';
+import { AdminModule } from './admin/admin.module';
+
 
 @NgModule({
   declarations: [
@@ -19,7 +23,10 @@ import { UsersComponent } from './users/users.component';
     NgbModule,
     BrowserAnimationsModule,
     MatButtonModule,
-    MatSliderModule
+    MatSliderModule,
+    UsersModule,
+    UserModule,
+    AdminModule
   ],
   providers: [],
   bootstrap: [AppComponent]
