@@ -10,12 +10,16 @@ import { UsersComponent } from './users/users.component';
 import { UsersModule } from './users/users.module';
 import { UserModule } from './user/user.module';
 import { AdminModule } from './admin/admin.module';
+import { AdminlistComponent } from './adminlist/adminlist.component';
+import { UserlistComponent } from './userlist/userlist.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    UsersComponent
+    UsersComponent,
+    AdminlistComponent,
+    UserlistComponent
   ],
   imports: [
     BrowserModule,
